@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Tourist</title>
+    <link rel="stylesheet" href="./destinationstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <img class="logo" src="./assets/shared/logo.svg" alt="LOGO" />
+<div class="line"></div>
+<div class="menu-icon mobile blur-bg">
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+<div class="mobile-menu menu-off">
+  <div class="menu-icon mobile blur-bg">
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <div class="blur-bg blur-mobile">
+    <ul class="nav-bar roboto mobile">
+      <li class="nav-item" id="home">
+        <a href="index.html"><span class="count">00</span> HOME</a>
+      </li>
+      <li class="nav-item" id="destination">
+        <a href="destination.html"><span class="count">01</span> DESTINATION</a>
+      </li>
+      <li class="nav-item" id="crew">
+        <a href="crew.html"><span class="count">02</span> CREW</a>
+      </li>
+      <li class="nav-item" id="technology">
+        <a href="technology.html"><span class="count">03</span> TECHNOLOGY</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        <div class="blur-bg">
+          <ul class="nav-bar roboto">
+            <li class="nav-item" id="home">
+              <a href="index.html"><span class="count">00</span> HOME</a>
+            </li>
+            <li class="nav-item" id="destination">
+              <a href="destination.html"><span class="count">01</span> DESTINATION</a>
+            </li>
+            <li class="nav-item" id="crew">
+              <a href="crew.html"><span class="count">02</span> CREW</a>
+            </li>
+            <li class="nav-item" id="technology">
+              <a href="technology.html"><span class="count">03</span> TECHNOLOGY</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- END OF HEADER -->
+
+      <!-- MAIN -->
+
+      <div class="main-container">
+
+        <div class="planet-container">
+            <h2 class="roboto"><span class="count">01</span>PICK YOUR DESTINATION</h2>
+            <img class="planet-image" src="./assets/destination/image-moon.png" alt="PLANET-IMAGE">
+        </div>
+        <div class="text-box">
+         <ul class="planet-list">
+             <li class="planet-item"><button class="roboto">MOON</button></li>
+             <li class="planet-item"><button class="roboto">MARS</button></li>
+             <li class="planet-item"><button class="roboto">EUROPA</button></li>
+             <li class="planet-item"><button class="roboto">TITAN</button></li>
+         </ul>
+         <img class="mobile-planet-image hidden" src="./assets/destination/image-moon.png" alt="PLANET-IMAGE">
+         <h1 class="playfair planet-name">MOON</h1>
+         <p class="violet planet-description">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+         <hr>
+         <div class="distance-section">
+<div class="avg-distance">
+    <p class="roboto violet">AVG.DISTANCE</p>
+    <h2 class="playfair est-avg-distance">384,400 KM</h2>
+</div>
+<div class="travel-time">
+<p class="roboto violet">EST. TRAVEL TIME</p>
+<h2 class="playfair est-travel-time">3 DAYS</h2>
+    </div>
+         </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="./destinationapp.js"></script>
+  </body>
+</html>
